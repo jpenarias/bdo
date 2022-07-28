@@ -1,0 +1,24 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.arrow-left-body {
+  display: none;
+}
+
+@include media-breakpoint-up(sm) {
+  .arrow-left-body {
+    display: none;
+  }
+}
+@include media-breakpoint-up(md) {
+  .arrow-left-body {
+    display: flex;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .arrow-left-body {
+    display: flex;
+  }
+}

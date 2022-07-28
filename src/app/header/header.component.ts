@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,17 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  title = 'bdo';
-  user = {
-    nit: '800220154',
-    nombre: 'Flotas la Macarena',
-    capa: 'Oro',
-    segmento: 'A',
-    gerenteRelacion: 'Carlos Gómez'
-  }
+  @Input() user: any;
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.user);
   }
 
 
