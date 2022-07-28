@@ -18,9 +18,19 @@
   padding-top: 10px;
 }
 
+.text-continue,
 .description {
   color: #00a6df;
 }
+
+.card-footer-box {
+  background: #e7ebed;
+}
+
+.text-continue-disable {
+  color: #afafaf;
+}
+
 .options{
   display: none;
 }
@@ -28,6 +38,15 @@
 .divider{
   padding-left: 2.5rem !important;
   padding-right: 2.5rem !important;
+}
+
+.card-img-top{
+  align-self: center;
+  width: 80px;
+}
+
+.card-text-selected {
+  font-weight: bold;
 }
 
 
