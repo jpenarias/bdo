@@ -1,5 +1,5 @@
 <div class="d-block pt-5">
-  <div class="row justify-content-lg-center">
+  <div class="row justify-content-lg-center justify-content-md-center">
 
     <div class="col-lg-1  text-end">
       <button type="button" class="btn btn-link arrow-left-body">
@@ -10,8 +10,28 @@
     <div class="col-sm-12 col-lg-5 justify-content-sm-center">
       <p class="text-center fs-4 mb-0 fw-bold">{{user.nombre}}</p>
       <p class="text-center fs-6 mb-0 text-secondary">NIT: {{user.nit}}</p>
-      <p class="text-center fs-6 mb-0 "> Capa: {{user.capa}} <i class="bi bi-dot"></i> Segmento: {{user.segmento}}</p>
+      <p class="text-center fs-6 mb-0 "> <span class="fw-bold">Capa:</span> {{user.capa}} <i class="bi bi-dot"></i> <span class="fw-bold">Segmento:</span> {{user.segmento}}</p>
+    </div>
+
+
+
+  </div>
+  <div class="row justify-content-lg-center justify-content-md-center">
+    <div class="options pt-3 col-sm-8  col-lg-6 justify-content-sm-center justify-content-md-around justify-content-lg-around">
+      <div class="col-md-2 col-lg-2 fw-bold selected-option operation-one">
+        <span> Operacion</span>
+      </div>
+      <div class="col-md-2 col-lg-1">
+        <span> Indicadores </span>
+      </div>
+      <div class="col-md-4 col-lg-3 justify-content-md-end justify-content-lg-end text-end operation-two">
+        <span> Informacion Cliente </span>
+      </div>
+    </div>
+    <div class="divider">
+      <hr class="divider-hr"/>
     </div>
   </div>
+
 </div>
 

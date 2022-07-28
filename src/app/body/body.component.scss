@@ -6,6 +6,16 @@
   display: none;
 }
 
+.options{
+  display: none;
+}
+
+.divider{
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+
 @include media-breakpoint-up(sm) {
   .arrow-left-body {
     display: none;
@@ -13,12 +23,49 @@
 }
 @include media-breakpoint-up(md) {
   .arrow-left-body {
+    display: none;
+  }
+
+  .divider{
+    padding-left: 10.5rem !important;
+    padding-right: 10.5rem !important;
+  }
+
+  .options{
     display: flex;
   }
+
+  .selected-option {
+    border-bottom: 3px solid #00a6df;
+  }
+
+  .divider-hr {
+    position: relative; top: -17px;
+  }
+
 }
 
 @include media-breakpoint-up(lg) {
   .arrow-left-body {
     display: flex;
+  }
+
+  .divider{
+    padding-left: 21.6rem !important;
+    padding-right: 21.6rem !important;
+  }
+
+  .operation-one {
+    position: relative;
+    left: -40px;
+  }
+
+  .operation-two {
+    position: relative;
+    left: 40px;
+  }
+
+  .divider-hr {
+    position: relative; top: -17px;
   }
 }
