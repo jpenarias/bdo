@@ -6,6 +6,21 @@
   display: none;
 }
 
+.alert-container {
+  color: #f0ae32;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.alert-message {
+  font-size: 10px;
+  height: 42px;
+  padding-top: 10px;
+}
+
+.description {
+  color: #00a6df;
+}
 .options{
   display: none;
 }
@@ -27,9 +42,10 @@
   }
 
   .divider{
-    padding-left: 10.5rem !important;
-    padding-right: 10.5rem !important;
+    padding-left: 9.1rem !important;
+    padding-right: 9.1rem !important;
   }
+
 
   .options{
     display: flex;
@@ -43,6 +59,16 @@
     position: relative; top: -17px;
   }
 
+  .alert-message {
+    font-size: 14px;
+  }
+
+  .alert-container {
+    width: 65vw;
+  }
+  .description {
+    padding-left: 0.6rem;
+  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -51,8 +77,15 @@
   }
 
   .divider{
-    padding-left: 21.6rem !important;
-    padding-right: 21.6rem !important;
+    padding-left: 18.6rem !important;
+    padding-right: 18.6rem !important;
+  }
+
+  description-container {
+    align-items: start;
+  }
+  .description {
+    margin-left: 7.4rem !important;
   }
 
   .operation-one {
@@ -67,5 +100,9 @@
 
   .divider-hr {
     position: relative; top: -17px;
+  }
+
+  .alert-container {
+    width: 55vw;
   }
 }
