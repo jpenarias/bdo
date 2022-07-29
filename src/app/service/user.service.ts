@@ -2,14 +2,12 @@ import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {User} from "../interface/user.interface";
-
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-
-  public url = "https://hwx9kfpv80.execute-api.us-east-1.amazonaws.com/dev"
   constructor(private http: HttpClient) { }
 
   /**
@@ -20,7 +18,7 @@ export class UserService {
    * @return retorna la data del usuario
    */
   public getUser(userNit: string): Observable<User> {
-    return this.http.get<User>(this.url + "?nit=" + userNit)
+    return this.http.get<User>(environment.url + "?nit=" + userNit)
   }
 
 }
