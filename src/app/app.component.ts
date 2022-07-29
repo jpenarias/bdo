@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bdo';
+  user = {
+    nit: '800220154',
+    nombre: 'Flotas la Macarena',
+    capa: 'Oro',
+    segmento: 'A',
+    gerenteRelacion: 'Carlos Gómez'
+  }
 }

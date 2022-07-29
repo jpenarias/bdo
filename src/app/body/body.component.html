@@ -1,0 +1,93 @@
+<!-- Sección de información -->
+<div class="d-block pt-5">
+  <div class="row justify-content-lg-center justify-content-md-center">
+    <div class="col-lg-1  text-end">
+      <button type="button" class="btn btn-link arrow-left-body">
+        <i class="bi bi-arrow-left"></i>
+      </button>
+    </div>
+
+    <div class="col-sm-12 col-lg-5 justify-content-sm-center">
+      <p class="text-center fs-4 mb-0 fw-bold">{{user.nombre}}</p>
+      <p class="text-center fs-6 mb-0 text-secondary">NIT: {{user.nit}}</p>
+      <p class="text-center fs-6 mb-0 "> <span class="fw-bold">Capa:</span> {{user.capa}} <i class="bi bi-dot"></i> <span class="fw-bold">Segmento:</span> {{user.segmento}}</p>
+    </div>
+    <div class="col-lg-1">
+    </div>
+  </div>
+  <!-- Sección menu -->
+  <div class="row  justify-content-lg-center justify-content-md-center">
+    <div class="options pt-3 col-sm-8  col-lg-6 justify-content-sm-center justify-content-md-between justify-content-lg-between">
+      <div class="col-md-2 col-lg-2 fw-bold selected-option operation-one">
+        <span> Operacion</span>
+      </div>
+      <div class="col-md-2 col-lg-1">
+        <span> Indicadores </span>
+      </div>
+      <div class="col-md-4 col-lg-3 justify-content-md-end justify-content-lg-end text-end operation-two">
+        <span> Informacion Cliente </span>
+      </div>
+    </div>
+    <!--<div class="row justify-content-around justify-content-md-center">
+    <ul class="nav border-bottom justify-content-center options pt-3 col-sm-8  col-lg-6">
+      <li class="nav-item text-start operation">
+        <a class="nav-link active fw-bold text-dark">Operación</a>
+      </li>
+      <li class="nav-item text-center">
+        <a class="nav-link disabled">Indicadores</a>
+      </li>
+      <li class="nav-item text-end">
+        <a class="nav-link disabled">Información al cliente</a>
+      </li>
+    </ul>-->
+    <div class="divider">
+      <hr class="divider-hr"/>
+    </div>
+
+  </div>
+  <div class="description-container d-flex align-items-center flex-column">
+    <div class="col-10 col-sm-8 col-lg-9">
+      <p class="description fs-6">Indique la línea de crédito que quiere reconsiderar</p>
+    </div>
+  </div>
+  <div class="row description-container d-flex align-items-center justify-content-center pb-3">
+    <div class="col-5 col-sm-3 col-lg-2">
+      <div class="card text-center">
+        <img class="card-img-top" src="../assets/ordinaria.png">
+        <p class="card-text-selected">Cartera Ordinaria</p>
+        <div class="card-footer card-footer-box border-top">
+          <p class="card-text text-center"><small class="text-continue">Continuar</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-5 col-sm-3 col-lg-2">
+      <div class="card text-center">
+        <img class="card-img-top" src="../assets/leasing.png">
+        <p class="text-continue-disable">Leasing</p>
+        <div class="card-footer border-top">
+          <p class="card-text text-center"><small class="text-continue-disable">Continuar</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="description-container d-flex align-items-center flex-column">
+    <div class="col-10 alert-container alert alert-warning d-flex">
+      <i class="bi bi-info-circle p-2"></i>
+      <div class="alert-message">
+        <p>
+          Las demás lineas de crédito no estarán disponible por el momento
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
